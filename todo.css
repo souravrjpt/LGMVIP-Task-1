@@ -1,0 +1,142 @@
+body{
+    background:url(large-triangles.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* position: relative;
+    background-color: #f2546f; */
+}
+
+.header{
+    font-family: "Open Sans",'Roboto Mono', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+#title{
+  border-radius: 30px;
+}
+
+.todo-container{
+ 
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-container {
+    /* Add shadows to create the "card" effect */
+    height: 10rem;
+    width: 20rem;
+     column-span: 60rem; 
+    background-color: #034bcf;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .left-container {
+     border-radius: 20px;
+    align-items: center;
+    box-shadow: 0 8px 16px 0 rgba(235, 178, 178, 0.2);
+  }
+  
+  #container.name{
+    /* display: flex; */
+    justify-content: center;
+  }
+  /* Add some padding inside the card container */
+  #container {
+     /* column-span: 100px; */
+    /* text-align: center; */
+    padding: 27px;
+  }
+
+#container input{
+    border: 10px;
+    padding: 10px;
+    margin-bottom: 2px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+
+::placeholder{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+  padding: 5px;
+    
+    font-weight: lighter;
+    box-sizing: content-box;
+
+}
+#container button{
+    margin-top: 2px;
+    font-weight:600 ;
+       text-align: center;
+      
+        width: 30%;
+        padding: 10px;
+        background: #00B7FF;
+        color: white;
+        font-size: 17px;
+        border: 5px solid #18c5f0;
+       border-radius: 30px;
+        cursor: cell;
+      
+}
+
+#container button:hover{
+    background-color: #7ad8f0;
+  box-shadow: #00B7FF;
+}
+#title{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #00B7FF;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+#title h2{
+    font-size: 40px;
+}
+#title:hover{
+text-decoration:underline;
+}
+
+#table{
+  /* padding-left: 190px; */
+  display: flex;
+  justify-content: center;
+}
+#tasklist{  
+  background-color: rgb(12, 126, 226);
+  height: auto;
+    width: 20rem;
+    border-radius: 10px;
+
+  /* display: flex; */
+  justify-content: center;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#tasklist button{
+  padding: 5px;
+  border: none;
+  border-radius: 30px;
+  /* margin-top: 2px; */
+  margin-bottom: 10px;
+  font-weight: bolder;
+  font-size: 10px;
+ background-color: #034bcf;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#tasklist button:hover{
+  background-color: #00B7FF;
+color: azure;
+border: 1px solid #18c5f0;
+}
